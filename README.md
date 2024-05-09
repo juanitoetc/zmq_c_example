@@ -6,6 +6,8 @@ Tested on Ubuntu 18.04.4 LTS (Bionic Beaver)
 `sudo apt-get install libzmq3-dev`
 
 # Compilation
+Perform manually the compilation of objects or simple use the makefile provided
+
 ## Manual
 ### Server
 `gcc src/srv/server_zmq.c -lzmq -o app/server`
