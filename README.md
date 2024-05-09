@@ -9,11 +9,9 @@ Tested on Ubuntu 18.04.4 LTS (Bionic Beaver)
 ## Manual
 ### Server
 `gcc src/srv/server_zmq.c -lzmq -o app/server`
-`cp src/srv/server app`
 
 ### Client
 `gcc src/cli/client_zmq.c -lzmq -o app/client`
-`cp src/cli/client app`
 
 ## Makefile
 make
